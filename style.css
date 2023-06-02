@@ -1,0 +1,50 @@
+/*@import 'global.css'
+@import 'normalize.css'
+*/
+/*body{
+  min-height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 100%;
+}*/
+
+body{
+  background:url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100px;
+}
+
+#time_count_val{
+  min-width: 7vw;
+  font-weight: 700;
+  color:rgb(222,96,77);
+}
+
+#time_count_text{
+  min-width: 7vw;
+  font-weight: 600;
+  color:rgb(222,96,77);
+}
+
+#time_count_title{
+  font-weight: 600;
+  color:rgb(100,100,100);
+}
+
+#separator{
+  font-weight: 600;
+  color:rgb(222,96,77);
+}
+
+
+/*#separator{
+  margin-right: 2%;
+  margin-left: 2%;
+}*/

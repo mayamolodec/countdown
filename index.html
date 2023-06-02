@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+    crossorigin="anonymous">
+</head>
+<body>
+
+<div class="d-flex justify-content-center" style="margin-top: 350px;">
+	<div class="card" style="width: 50%; min-width: 300px; background-color: rgba(255, 255, 255, 0.8); border-radius: 25px; border-width:0;">
+  		<div class="card-body" id="time_count">
+		    <h2 class="card-title px-3 pt-2 pb-2 text-center display-7" id="time_count_title" >До получения лучшей булочки осталось</h2>
+            <div class="card-text d-flex justify-content-center text-info" id="time_count_content">
+                 <div class="time_count_days" id="time_count_days">
+                    <div class="card-text display-4 d-flex justify-content-center " id="time_count_val">00</div>
+                    <span class="card-text display-7 d-flex justify-content-center" id="time_count_text">дней</span>
+                </div>
+                <div class="card-text display-5 mx-1.2" id = "separator">:</div>
+                <div class="time_count_hours" id="time_count_hours">
+                    <div class="card-text display-4 d-flex justify-content-center " id="time_count_val">00</div>
+                    <span class="card-text display-7 d-flex justify-content-center" id="time_count_text">часов</span>
+                </div>
+                <div class="card-text display-5 mx-1.2 " id = "separator">:</div>
+                <div class="time_count_minutes" id="time_count_minutes">
+                    <div class="card-text display-4 d-flex justify-content-center " id="time_count_val">00</div>
+                    <span class="card-text display-7 d-flex justify-content-center" id="time_count_text" >минут</span>
+                </div>
+                <div class="card-text display-5 mx-1.2 " id = "separator">:</div>
+                <div class="time_count_seconds" id="time_count_seconds">
+                    <div class="card-text display-4 d-flex justify-content-center " id="time_count_val">00</div>
+                    <span class="card-text display-7 d-flex justify-content-center" id="time_count_text">секунд</span>
+                </div>
+            </div>
+  		</div>
+	</div>
+</div>
+        <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+        crossorigin="anonymous">	
+        </script>
+            <script src="script.js"></script>
+</body>
+</html>
