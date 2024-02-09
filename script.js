@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-	const Kazuha = new Date('Jun 13 2024 19:00:00');
+	const Kazuha = new Date('Jan 1 2025 00:00:00');
 
 	const daysVal = document.querySelector('.time_count_days #time_count_val');
 	const hoursVal = document.querySelector('.time_count_hours #time_count_val');
